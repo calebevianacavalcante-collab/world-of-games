@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World of Games | Curiosidades</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #00000099;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 5px;
+      color: #ccc;
+    }
+    main {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #111;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 0 10px #000;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #00d9ff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #00000099;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 World of Games</h1>
+    <p>Curiosidades incríveis do mundo gamer</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>🎮 Minecraft</h2>
+      <p>O Minecraft foi criado por apenas uma pessoa: Markus Persson, conhecido como Notch.</p>
+    </div>
+
+    <div class="card">
+      <h2>🕹️ GTA</h2>
+      <p>GTA V arrecadou mais de 1 bilhão de dólares em apenas 3 dias após o lançamento.</p>
+    </div>
+
+    <div class="card">
+      <h2>👾 Super Mario</h2>
+      <p>O nome Mario veio do dono do armazém da Nintendo nos EUA, Mario Segale.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚔️ Fortnite</h2>
+      <p>Fortnite quase foi cancelado antes de virar um dos maiores jogos do mundo.</p>
+    </div>
+
+    <div class="card">
+      <h2>🧱 Tetris</h2>
+      <p>Tetris foi criado na União Soviética em 1984 e não teve direitos autorais no início.</p>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Free Fire</h2>
+      <p>Free Fire é um dos jogos mobile mais baixados da história.</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 World of Games • Feito por você 😎
+  </footer>
+</body>
+</html>
